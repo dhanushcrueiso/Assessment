@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "37e01700-8e49-4a15-92ba-23922d3e0335",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15598616"
+	},
+	"item": [
+		{
+			"name": "Employe with Min Hours",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"02535f86-6bdd-4697-b31e-993d1f582acc\",\r\n    \"clockin\":\"2024-04-23T18:25:43.511Z\",\r\n    \"clockout\":\"2024-05-23T18:25:43.511Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3007/v1/employee/saveAttendance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"v1",
+						"employee",
+						"saveAttendance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employee report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"02535f86-6bdd-4697-b31e-993d1f582acc\",\r\n    \"clockin\":\"2024-04-23T18:25:43.511Z\",\r\n    \"clockout\":\"2024-05-23T18:25:43.511Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3007/v1/employee/saveAttendance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"v1",
+						"employee",
+						"saveAttendance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employee save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"02535f86-6bdd-4697-b31e-993d1f582acc\",\r\n    \"clockin\":\"2024-04-23T18:25:43.511Z\",\r\n    \"clockout\":\"2024-05-23T18:25:43.511Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3007/v1/employee/saveAttendance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"v1",
+						"employee",
+						"saveAttendance"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
